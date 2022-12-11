@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    width: 100%;
+    height: 75px;
+    background-color:#fff;
+}
+#nav>article {
+    width: 95%;
+    height: 75px;
+    margin-left:5%;
+    display: flex;
+    align-items: center;
+}
+#nav article .brandLogo{
+    width: 7%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+#nav article .menuList{
+    width: 40%;
+    height: 75px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* #nav>article .menuList ul{
+    display: flex;
+    justify-content: center;
+
+} */
+#nav>article .menuList li{
+    list-style: none;
+}
+#nav article .menuList li a{
+    text-decoration: none;
+font-size: 14px;
+letter-spacing: .3px;
+font-weight: 500;
+font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+color: black;
+}
+#nav article .menuList li a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+.searchBar{
+    width: 33%;
+    position: relative;
+}
+.searchBar i{
+    position: absolute;
+    left: 100px;
+    top: 12px;
+}
+.searchBar input{
+     display: inline-block;
+    float:right;
+    font-size: 14px;
+    height: 20px;
+    width: 300px;
+    line-height: 24px;
+    color: #696e79;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 0 10px 50px ;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6; 
+} 
+.loginMenu{
+    width: 20%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+figcaption{
+    color: black;
+}
+.loginMenu a{
+    text-decoration: none;
+}
+.loginMenu i{
+    padding-left: 15px;
+    color: black;
+}

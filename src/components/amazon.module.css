@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    width: 100%;
+    height: 60px;
+    background-color:rgba(18,25,33,255);
+    /* font-family: "Amazon Ember",Arial,sans-serif; */
+}
+#nav article{
+    width: 98%;
+    height: 60px;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 10%;
+}
+.logo img:hover{
+    border: 1px solid #fff;
+}
+.location{
+    width: 13%;
+}
+.location img:hover{
+    border: 1px solid #fff;
+}
+.searchBar{
+    width: 45%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: relative;
+}
+.searchBar input{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    left: 62px;
+}
+#dropDown{
+    height: 40px;
+    background-color:rgb(205, 212, 212) ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#dropDown:hover{
+    background-color: rgb(171, 174, 177);
+    border: 2px solid orange;
+
+}
+.searchBar i{
+    background-color: orange;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 40px;
+    position: absolute;
+    right: 0px;
+    /* top: 20px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* color: #fff; */
+    /* margin-top: 10px; */
+}
+.searchBar i:hover{
+    background-color: rgb(219, 160, 50);
+}
+.Language{
+    width: 6%;
+    padding-left: 5px;
+}
+.Language img:hover{
+    border: 1px solid #fff;
+}
+.login{
+    width: 10%;
+    color: antiquewhite;
+    padding-left: 10px;
+}
+.order{
+    width: 8%;
+    color: antiquewhite;
+    padding-left: 20px;
+}
+.cart{
+    width: 8%;
+    /* float: right; */
+    padding-left: 12px;
+}

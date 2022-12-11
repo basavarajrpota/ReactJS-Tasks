@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    width: 100%;
+    height: 75px;
+    background-color: #0f0617;
+    display: flex;
+    justify-content: center;
+}
+#nav article{
+    width: 97%;
+    height: 75px;
+    display: flex;
+    /* background-color: aliceblue; */
+}
+.logo{
+    width: 7%;
+    height: 75px;
+    /* background-color: aliceblue; */
+}
+.menu{
+    width: 40%;
+    height: 75px;
+    /* background-color: aliceblue; */
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 75px;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: NotoSansRegular,sans-serif;
+    font-size: 14px;
+    color: hsla(0,0%,100%,.9);
+    cursor: pointer;
+}
+.menu ul li a:hover{
+    padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+.searchBar{
+    width: 28%;
+    height: inherit;
+    /* background-color: aqua; */
+    padding-left: 62px;
+    display: flex;
+    align-items: center;
+
+}
+.searchBar input{
+    width: 300px;
+    height: 30px;
+    background-color:#0f0617 ;
+    border: .8px solid white;
+    border-radius: 5px;
+    padding-left: 30px;
+    color: white;
+}
+.searchBar  i{
+    color: white;
+    position: relative;
+    right: 280px;
+}
+.login_plan{
+    width: 25%;
+    height: 75px;
+    /* background-color: aliceblue; */
+}
+.login_plan ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+}
+.login_plan ul li{
+    list-style: none;
+}
+.login_plan ul li a{
+    text-decoration: none;
+    font-family: NotoSansRegular,sans-serif;
+    font-size: 14px;
+    color: hsla(0,0%,100%,.9);
+    cursor: pointer;
+}
+.login_border a{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.login_border a:hover{
+    background-color: #fff;
+    color: black;
+}
+.plan_buy{
+    padding: 10px;
+    background-color: #8230c6;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.plan_buy:hover{
+    background-color: #5c2d83;
+}
